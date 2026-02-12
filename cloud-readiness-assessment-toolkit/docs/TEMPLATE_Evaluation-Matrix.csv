@@ -1,6 +1,8 @@
-Criteria Category,Specific Requirement,Weight (1-10),AWS Score,Azure Score,GCP Score,Evidence/Notes
-Technical,Native support for Windows/SQL,10,0,0,0,
-Commercial,EA/EDP applicability,9,0,0,0,
-Operational,Integration with existing AD,8,0,0,0,
-Innovation,GenAI model availability,7,0,0,0,
-Ecosystem,PaaS Maturity,8,0,0,0,
+Criteria Category,Specific Requirement,Weight (1-10),AWS Score,Azure Score,GCP Score,Evidence/Notes (Required)
+Technical,Native support for Windows/SQL/Legacy workloads,10,0,0,0,Must show evidence of license portability (AHB/BYOL)
+Security & Compliance,Data Sovereignty & Jurisdictional Compliance,10,0,0,0,Critical for local data residency requirements
+Security & Compliance,Zero Trust Networking & Identity Integration,9,0,0,0,Evaluation of Private Link and Entra ID integration
+Commercial,EA/EDP applicability & Financial Commit options,9,0,0,0,Impact on 3-year TCO
+Operational,Managed Service Maturity (PaaS/SaaS),8,0,0,0,Ability to offload OS/DB management
+Innovation,Generative AI & LLM Ecosystem,7,0,0,0,Availability of specific foundation models/regions
+Ecosystem,Marketplace Availability for Third-Party NVA,7,0,0,0,Support for existing Firewall/F5 vendors

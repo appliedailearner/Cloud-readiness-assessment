@@ -1,7 +1,12 @@
-Cost Category,Current On-Prem Cost,Cloud Target Cost,Assumption/Rationale
-Server Hardware Depreciation,0,0,Sunk cost
-Software Licenses (OS/DB),0,0,BYOL vs PAYG
-Labor (IT Ops),0,0,Efficiency Factor applied
-Datacenter Facility (Power/Cooling),0,0,Estimated SqFt
-Cloud Consumption (Compute/Storage),0,0,Based on 30-day util scan
-Migration Bubble (Double Run),0,0,12-month overlapping period
+Cost Category,Current On-Prem Cost,Cloud Target Cost,Delta (Cost/Savings),Assumption / Rationale (Manual Entry)
+"Server Hardware (CapEx/OpEx)",0,0,0,"Amortized cost or lease payment schedules"
+"Software Licenses (OS/Database)",0,0,0,"Include maintenance/SA costs"
+"Labor (FTE Efficiency)",0,0,0,"Target 20-30% efficiency gain via PaaS"
+"Facility (Power, Cooling, Rack Space)",0,0,0,"Standardized SqFt cost for DC"
+"Cloud Consumption (Calculated)",0,0,0,"Based on 30-day performance scan profile"
+"Migration Bubble (Double Run)",0,0,0,"Overlapping costs during 6-12 month transition"
+"Data Egress & Traffic",0,0,0,"Estimated based on application profiles"
+"Managed Services (PaaS Premium)",0,0,0,"Offset by labor savings above"
+
+<!-- INSTRUCTION: Sensitivity Analysis -->
+<!-- Note: Adjust the 'Labor Efficiency' and 'Migration Bubble' duration to see best/worst-case ROI scenarios. -->
