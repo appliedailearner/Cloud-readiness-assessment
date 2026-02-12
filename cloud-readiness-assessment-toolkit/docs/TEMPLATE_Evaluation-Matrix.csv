@@ -1,0 +1,6 @@
+Criteria Category,Specific Requirement,Weight (1-10),AWS Score,Azure Score,GCP Score,Evidence/Notes
+Technical,Native support for Windows/SQL,10,0,0,0,
+Commercial,EA/EDP applicability,9,0,0,0,
+Operational,Integration with existing AD,8,0,0,0,
+Innovation,GenAI model availability,7,0,0,0,
+Ecosystem,PaaS Maturity,8,0,0,0,

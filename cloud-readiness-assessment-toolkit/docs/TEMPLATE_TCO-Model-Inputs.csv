@@ -1,0 +1,7 @@
+Cost Category,Current On-Prem Cost,Cloud Target Cost,Assumption/Rationale
+Server Hardware Depreciation,0,0,Sunk cost
+Software Licenses (OS/DB),0,0,BYOL vs PAYG
+Labor (IT Ops),0,0,Efficiency Factor applied
+Datacenter Facility (Power/Cooling),0,0,Estimated SqFt
+Cloud Consumption (Compute/Storage),0,0,Based on 30-day util scan
+Migration Bubble (Double Run),0,0,12-month overlapping period
